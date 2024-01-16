@@ -16,7 +16,7 @@ services:
   phpmyadmin:
     image: phpmyadmin
     ports:
-      - 8080:80
+      - 9090:90
     environment:
       - PMA_HOST=mysql
     depends_on:
